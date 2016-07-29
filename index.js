@@ -12,7 +12,7 @@ import { Provider } from 'react-redux'
 import logger from 'redux-logger'
 import thunk from 'redux-thunk'
 
-import reducer from './components/demo/reducers/timerReducer'
+import reducer from './components/demo/reducers/trollReducer'
 
 const middleware = process.env.NODE_ENV === 'production' ?
   [ thunk ] :
